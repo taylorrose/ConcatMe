@@ -11,4 +11,4 @@ Simple Excel VBA function to concatenate values in a range of cells and add deli
 `endDelim` - String you woul dlike to add to the end of each value in the concatination, *e.g.* , `"},"`<br>
 `cutString` *(Optional)* - If set to `TRUE` then will remove the last character of the `endDelim` on the last value of the series, *e.g.* , `{1111},{2222},{3333},` ---> `{1111},{2222},{3333}`
 
-*NOTE:* Enter a blank string (`""`) as the `startDelim` and/or `endDelim` if you want to omit a string at the beggining and/or end of your values
+*NOTE:* Enter a blank string (`""`) as the `startDelim` and/or `endDelim` if you want to omit a string at the beginning and/or end of your values
