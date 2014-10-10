@@ -4,7 +4,7 @@ ConcatMe
 Simple Excel VBA function to concatenate values in a range of cells and add delimiters to the front or back of values  
 
 
-`ConcatMe`(`Range`,`startDelim`,`endDelim`,`cutString`) , *e.g.* , `=ConcatMe`(`A1:A3`,`{`,`},`,`1`)
+`ConcatMe`(`Range`,`startDelim`,`endDelim`,`cutString`) , *e.g.* , `=ConcatMe`(`A1:A3`,`"{"`,`"},"`,`1`)
 
 `Range` - Range of cells you wish to concatinate , *e.g.*, `A1:A3`<br>
 `startDelim` - String you would like to add to the beginning of each value in the concatination, *e.g.* , `"{"`<br>
